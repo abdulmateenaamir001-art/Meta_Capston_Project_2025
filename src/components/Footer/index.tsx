@@ -105,7 +105,7 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
         </Column>
       </Content>
       <Copyright>
-        <span>Developed by AbdulMateen Amir.</span>
+        <span>Developed by Abdul Mateen Amir.</span>
         <p>© 2025 Little Lemon. All rights reserved.</p>
       </Copyright>
     </Container>
