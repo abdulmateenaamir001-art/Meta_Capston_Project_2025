@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_API_BASE_URL": "@vite_api_base_url",
+    "VITE_BOOKING_API_ENDPOINT": "@vite_booking_api_endpoint",
+    "VITE_RESTAURANT_NAME": "@vite_restaurant_name",
+    "VITE_RESTAURANT_EMAIL": "@vite_restaurant_email",
+    "VITE_ENABLE_BOOKINGS": "@vite_enable_bookings",
+    "VITE_ENABLE_ONLINE_ORDERING": "@vite_enable_online_ordering",
+    "VITE_ENVIRONMENT": "production"
+  },
+  "buildIgnore": ["node_modules"],
+  "regions": ["iad1"]
+}
