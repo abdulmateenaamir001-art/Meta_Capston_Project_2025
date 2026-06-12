@@ -13,6 +13,5 @@
     "VITE_ENABLE_ONLINE_ORDERING": "@vite_enable_online_ordering",
     "VITE_ENVIRONMENT": "production"
   },
-  "buildIgnore": ["node_modules"],
   "regions": ["iad1"]
 }
